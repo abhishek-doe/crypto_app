@@ -1,0 +1,44 @@
+.login{
+    height: 35rem;
+}
+.login .container{
+    width: 30rem;
+    height: 25rem;
+    padding: 1rem 1rem;
+    box-sizing: border-box;
+    box-shadow: rgb(0 0 0 / 20%) 0px 8px 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 4rem;
+    border-radius: 15px;
+}
+
+.login input{
+    margin-top: 1rem;
+}
+.login .email{
+    margin-top: 1rem;
+}
+
+
+.login h1{
+    position: absolute;
+    top: 3rem;
+}
+.login h2{
+    align-self: center;
+    margin-top: 3rem;
+}
+.login h5{
+    align-self: center;
+    margin: 2rem 3.5rem;
+}
+.login .btn{
+    margin-top: 1rem;
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+}

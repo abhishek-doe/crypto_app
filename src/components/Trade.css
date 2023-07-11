@@ -1,0 +1,29 @@
+.trade .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 1rem;
+}
+
+.trade .left{
+    text-align: center;
+}
+
+.trade img{
+    width: 350px;
+}
+.trade img:hover{
+    transform: scale(1.1);
+    transition: 0.6s ease-in-out;
+}
+
+.trade .right p{
+    margin: 2rem 0;
+}
+
+@media screen and (max-width: 940px){
+    .trade .container{
+        grid-template-columns: 1fr;
+    }
+}
